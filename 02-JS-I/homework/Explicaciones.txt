@@ -1,0 +1,37 @@
+﻿1-Una "variable" es un espacio reservado para un dato que se va a usar, como si fuese un vaso o una cajita
+ que te va a servir más tarde.
+Pueden escribirse de 4 formas y siempre con un "=" que va antes de lo que queremos dentro de la variable:
+
+nombreDeVariable = valor
+var nombreDeVariable = valor
+let nombreDeVariable = valor
+const nombreDeVariable = valor
+Cada una de éstas formas tiene un alcance o "scope" distinto dentro de nuestro código.
+
+2-Una "string" es similar a una variable pero ya ES un dato con forma de texto,
+ algo así como un pedacito de hoja de cuaderno ya escrita o sin estar escrita.
+Se escriben siempre entre comillas simples o dobles "así"
+
+3-Una "función" es una orden que podemos dar,
+ siempre y cuando definamos qué es lo que queremos que haga y con qué.
+ Primero la escribimos y luego establecemos sus "argumentos" que vienen a ser los recursos
+ con los que va a trabajar esa orden/función(siempre se separan con una coma), y
+ una vez que definimos ambas cosas, vamos a tener una función completa, pero
+ para obtener un resultado de ella, debemos especificar cómo querríamos que se resuelva todo;
+ entonces usamos el comando "return"
+Entonces para escribir una función, lo hacemos así:
+function nombreDeFunción (argumento1, argumento2) 
+{ lo que querramos hacer con argumento1 y argumento2 }
+ return resultados que queramos.
+
+4-La declaración "if" es un pedido que hacemos a la computadora para que nos diga si algo es
+ o no es, para poder decirle qué hacer en ambos casos individualmente.
+Por ejemplo:
+function puedeEstudiarEnLaUniversidad(edad) {
+    if (edad > 18) {return true;}
+    return false;
+}
+puedeEstudiarEnLaUniversidad(22); //devuelve true
+
+5-Los "valores Booleanos" son datos básicos verdadero(true) o falso(false),
+ que representan el sistema binario de ceros y unos que utilizan las computadoras.

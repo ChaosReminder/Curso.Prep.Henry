@@ -1,0 +1,14 @@
+1- "for"es la forma más sencilla de hacer bucles de código en JavaScript,
+ésto quiere decir que son partes de código que se ejecutan la cantidad de veces que querramos,
+primero se declara una variable con un número base, luego se establece un límite para esas ejecuciones
+y por último, el número vase se incrementa hasta llegar al límite que pusimos anteriormente.
+
+2- 
+&& Nos sirve para decirle a la computadora que tenemos más de una condición a cumplir y que sólo ejecute
+ determinado código cuando ambas se cumplan.
+ 
+|| Nos sirve para indicarle a la computadora que si se cumpla una de todas las condiciones,
+ se ejecute determinado código.
+
+! Nos sirve para especificar que necesitamos lo contrario a lo que venga después, para que
+se ejecute determinado código.
